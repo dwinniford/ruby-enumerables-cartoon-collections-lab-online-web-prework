@@ -18,5 +18,4 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.find { |i| cheese_types.any? { |x| x == i } }
-  #cheese_types.find { |i| array.fi == i }
 end
